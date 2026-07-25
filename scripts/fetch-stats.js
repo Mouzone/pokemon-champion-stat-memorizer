@@ -32,6 +32,24 @@ const getText = (url) => new Promise((resolve, reject) => {
     }).on("error", reject);
 });
 
+function isHindering(nature) {
+    return ['Brave', 'Relaxed', 'Quiet', 'Sassy'].includes(nature);
+}
+
+function isBoosting(nature) {
+    return ['Timid', 'Hasty', 'Jolly', 'Naive'].includes(nature);
+}
+
+function getSpeedStat(base, nature, speedEvPoints) {
+    let finalSpeed = base + 20 + speedEvPoints;
+    if (speedEvPoints === 0 && isHindering(nature)) {
+        finalSpeed = base + 5;
+    }
+    if (isHindering(nature)) return Math.floor(finalSpeed * 0.9);
+    if (isBoosting(nature)) return Math.floor(finalSpeed * 1.1);
+    return Math.floor(finalSpeed * 1.0);
+}
+
 function standardizeName(name) {
     let s = name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
     if (s.endsWith('-')) s = s.slice(0, -1);
@@ -120,8 +138,19 @@ async function run() {
         });
     }
     
-    console.log(`Parsed ${pokemonList.length} pokemon. Fetching individual stats...`);
+    console.log(`Parsed ${pokemonList.length} pokemon. Fetching chaos data...`);
     
+    const chaosUrl = `https://www.smogon.com/stats/${latestMonth}chaos/${targetFormat.replace('.txt', '.json')}`;
+    let chaosData;
+    try {
+        chaosData = await getJSON(chaosUrl);
+        console.log(`Successfully fetched chaos data.`);
+    } catch(e) {
+        console.error("Failed to fetch chaos data:", e);
+        return;
+    }
+    
+    console.log("Fetching individual stats from PokeAPI...");
     const finalData = [];
     
     for (let i = 0; i < pokemonList.length; i++) {
@@ -134,6 +163,46 @@ async function run() {
             const speedStat = apiData.stats.find(s => s.stat.name === 'speed').base_stat;
             const sprite = apiData.sprites.front_default || apiData.sprites.other['official-artwork'].front_default;
             
+            let neutralSpeed = speedStat + 20;
+            let medianSpeed = speedStat + 20;
+            let averageSpeed = speedStat + 20;
+            
+            let chaosMonData = chaosData.data[p.name];
+            if (chaosMonData && chaosMonData.Spreads) {
+                let totalCount = 0;
+                let sum = 0;
+                let distinctSpeeds = {};
+                
+                for (const [spreadStr, count] of Object.entries(chaosMonData.Spreads)) {
+                    const parts = spreadStr.split(':');
+                    if(parts.length < 2) continue;
+                    const nature = parts[0];
+                    const evs = parts[1].split('/');
+                    if(evs.length < 6) continue;
+                    const speedEvPoints = parseInt(evs[5]);
+                    
+                    const finalSpeed = getSpeedStat(speedStat, nature, speedEvPoints);
+                    distinctSpeeds[finalSpeed] = (distinctSpeeds[finalSpeed] || 0) + count;
+                    totalCount += count;
+                    sum += finalSpeed * count;
+                }
+                
+                if (totalCount > 0) {
+                    averageSpeed = Math.round(sum / totalCount);
+                    
+                    let sortedSpeeds = Object.keys(distinctSpeeds).map(Number).sort((a,b) => a - b);
+                    let currentCount = 0;
+                    const mid = totalCount / 2;
+                    for (let s of sortedSpeeds) {
+                        currentCount += distinctSpeeds[s];
+                        if (currentCount >= mid) {
+                            medianSpeed = s;
+                            break;
+                        }
+                    }
+                }
+            }
+
             finalData.push({
                 name: p.name,
                 apiName: p.apiName,
@@ -141,9 +210,9 @@ async function run() {
                 rank: p.rank,
                 sprite,
                 baseSpeed: speedStat,
-                minSpeed: Math.floor((speedStat + 5) * 0.9), // 0 IV, 0 EV, Hindering Nature
-                neutralSpeed: speedStat + 20, // 31 IV, 0 EV, Neutral Nature
-                maxSpeed: Math.floor((speedStat + 52) * 1.1) // 31 IV, 252 EV, Boosting Nature
+                neutralSpeed: neutralSpeed,
+                medianSpeed: medianSpeed,
+                averageSpeed: averageSpeed
             });
         } catch (e) {
             console.warn(`Failed to fetch PokeAPI data for ${p.apiName}: ${e.message}`);

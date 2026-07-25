@@ -6,9 +6,9 @@
     "rank": 1,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1013.png",
     "baseSpeed": 70,
-    "minSpeed": 67,
     "neutralSpeed": 90,
-    "maxSpeed": 134
+    "medianSpeed": 90,
+    "averageSpeed": 84
   },
   {
     "name": "Garchomp",
@@ -17,9 +17,9 @@
     "rank": 2,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png",
     "baseSpeed": 102,
-    "minSpeed": 96,
     "neutralSpeed": 122,
-    "maxSpeed": 169
+    "medianSpeed": 169,
+    "averageSpeed": 162
   },
   {
     "name": "Whimsicott",
@@ -28,9 +28,9 @@
     "rank": 3,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/547.png",
     "baseSpeed": 116,
-    "minSpeed": 108,
     "neutralSpeed": 136,
-    "maxSpeed": 184
+    "medianSpeed": 184,
+    "averageSpeed": 168
   },
   {
     "name": "Incineroar",
@@ -39,9 +39,9 @@
     "rank": 4,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png",
     "baseSpeed": 60,
-    "minSpeed": 58,
     "neutralSpeed": 80,
-    "maxSpeed": 123
+    "medianSpeed": 80,
+    "averageSpeed": 80
   },
   {
     "name": "Basculegion",
@@ -50,9 +50,9 @@
     "rank": 5,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/902.png",
     "baseSpeed": 78,
-    "minSpeed": 74,
     "neutralSpeed": 98,
-    "maxSpeed": 143
+    "medianSpeed": 130,
+    "averageSpeed": 129
   },
   {
     "name": "Farigiraf",
@@ -61,9 +61,9 @@
     "rank": 6,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/981.png",
     "baseSpeed": 60,
-    "minSpeed": 58,
     "neutralSpeed": 80,
-    "maxSpeed": 123
+    "medianSpeed": 58,
+    "averageSpeed": 69
   },
   {
     "name": "Kingambit",
@@ -72,9 +72,9 @@
     "rank": 7,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/983.png",
     "baseSpeed": 50,
-    "minSpeed": 49,
     "neutralSpeed": 70,
-    "maxSpeed": 112
+    "medianSpeed": 70,
+    "averageSpeed": 72
   },
   {
     "name": "Pelipper",
@@ -83,9 +83,9 @@
     "rank": 8,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png",
     "baseSpeed": 65,
-    "minSpeed": 63,
     "neutralSpeed": 85,
-    "maxSpeed": 128
+    "medianSpeed": 96,
+    "averageSpeed": 101
   },
   {
     "name": "Grimmsnarl",
@@ -94,9 +94,9 @@
     "rank": 9,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/861.png",
     "baseSpeed": 60,
-    "minSpeed": 58,
     "neutralSpeed": 80,
-    "maxSpeed": 123
+    "medianSpeed": 80,
+    "averageSpeed": 79
   },
   {
     "name": "Sneasler",
@@ -105,9 +105,9 @@
     "rank": 10,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png",
     "baseSpeed": 120,
-    "minSpeed": 112,
     "neutralSpeed": 140,
-    "maxSpeed": 189
+    "medianSpeed": 179,
+    "averageSpeed": 179
   },
   {
     "name": "Staraptor-Mega",
@@ -116,9 +116,9 @@
     "rank": 11,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10308.png",
     "baseSpeed": 110,
-    "minSpeed": 103,
     "neutralSpeed": 130,
-    "maxSpeed": 178
+    "medianSpeed": 178,
+    "averageSpeed": 163
   },
   {
     "name": "Archaludon",
@@ -127,9 +127,9 @@
     "rank": 12,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1018.png",
     "baseSpeed": 85,
-    "minSpeed": 81,
     "neutralSpeed": 105,
-    "maxSpeed": 150
+    "medianSpeed": 109,
+    "averageSpeed": 116
   },
   {
     "name": "Swampert-Mega",
@@ -138,9 +138,9 @@
     "rank": 13,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10064.png",
     "baseSpeed": 70,
-    "minSpeed": 67,
     "neutralSpeed": 90,
-    "maxSpeed": 134
+    "medianSpeed": 112,
+    "averageSpeed": 112
   },
   {
     "name": "Metagross-Mega",
@@ -149,9 +149,9 @@
     "rank": 14,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10076.png",
     "baseSpeed": 110,
-    "minSpeed": 103,
     "neutralSpeed": 130,
-    "maxSpeed": 178
+    "medianSpeed": 170,
+    "averageSpeed": 164
   },
   {
     "name": "Gholdengo",
@@ -160,9 +160,9 @@
     "rank": 15,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1000.png",
     "baseSpeed": 84,
-    "minSpeed": 80,
     "neutralSpeed": 104,
-    "maxSpeed": 149
+    "medianSpeed": 136,
+    "averageSpeed": 133
   },
   {
     "name": "Raichu-Mega-Y",
@@ -171,9 +171,9 @@
     "rank": 16,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10305.png",
     "baseSpeed": 130,
-    "minSpeed": 121,
     "neutralSpeed": 150,
-    "maxSpeed": 200
+    "medianSpeed": 200,
+    "averageSpeed": 193
   },
   {
     "name": "Sylveon",
@@ -182,9 +182,9 @@
     "rank": 17,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png",
     "baseSpeed": 60,
-    "minSpeed": 58,
     "neutralSpeed": 80,
-    "maxSpeed": 123
+    "medianSpeed": 82,
+    "averageSpeed": 83
   },
   {
     "name": "Charizard-Mega-Y",
@@ -193,9 +193,9 @@
     "rank": 18,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10035.png",
     "baseSpeed": 100,
-    "minSpeed": 94,
     "neutralSpeed": 120,
-    "maxSpeed": 167
+    "medianSpeed": 152,
+    "averageSpeed": 151
   },
   {
     "name": "Floette-Mega",
@@ -204,9 +204,9 @@
     "rank": 19,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10296.png",
     "baseSpeed": 102,
-    "minSpeed": 96,
     "neutralSpeed": 122,
-    "maxSpeed": 169
+    "medianSpeed": 154,
+    "averageSpeed": 154
   },
   {
     "name": "Torkoal",
@@ -215,9 +215,9 @@
     "rank": 20,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png",
     "baseSpeed": 20,
-    "minSpeed": 22,
     "neutralSpeed": 40,
-    "maxSpeed": 79
+    "medianSpeed": 22,
+    "averageSpeed": 26
   },
   {
     "name": "Sableye",
@@ -226,9 +226,9 @@
     "rank": 21,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png",
     "baseSpeed": 50,
-    "minSpeed": 49,
     "neutralSpeed": 70,
-    "maxSpeed": 112
+    "medianSpeed": 70,
+    "averageSpeed": 68
   },
   {
     "name": "Mawile-Mega",
@@ -237,9 +237,9 @@
     "rank": 22,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10052.png",
     "baseSpeed": 50,
-    "minSpeed": 49,
     "neutralSpeed": 70,
-    "maxSpeed": 112
+    "medianSpeed": 70,
+    "averageSpeed": 62
   },
   {
     "name": "Rotom-Wash",
@@ -248,9 +248,9 @@
     "rank": 24,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10009.png",
     "baseSpeed": 86,
-    "minSpeed": 81,
     "neutralSpeed": 106,
-    "maxSpeed": 151
+    "medianSpeed": 117,
+    "averageSpeed": 125
   },
   {
     "name": "Milotic",
@@ -259,9 +259,9 @@
     "rank": 25,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
     "baseSpeed": 81,
-    "minSpeed": 77,
     "neutralSpeed": 101,
-    "maxSpeed": 146
+    "medianSpeed": 101,
+    "averageSpeed": 103
   },
   {
     "name": "Aerodactyl",
@@ -270,9 +270,9 @@
     "rank": 26,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
     "baseSpeed": 130,
-    "minSpeed": 121,
     "neutralSpeed": 150,
-    "maxSpeed": 200
+    "medianSpeed": 200,
+    "averageSpeed": 198
   },
   {
     "name": "Ninetales-Alola",
@@ -281,9 +281,9 @@
     "rank": 27,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10104.png",
     "baseSpeed": 109,
-    "minSpeed": 102,
     "neutralSpeed": 129,
-    "maxSpeed": 177
+    "medianSpeed": 177,
+    "averageSpeed": 173
   },
   {
     "name": "Talonflame",
@@ -292,9 +292,9 @@
     "rank": 28,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png",
     "baseSpeed": 126,
-    "minSpeed": 117,
     "neutralSpeed": 146,
-    "maxSpeed": 195
+    "medianSpeed": 195,
+    "averageSpeed": 190
   },
   {
     "name": "Annihilape",
@@ -303,9 +303,9 @@
     "rank": 29,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png",
     "baseSpeed": 90,
-    "minSpeed": 85,
     "neutralSpeed": 110,
-    "maxSpeed": 156
+    "medianSpeed": 116,
+    "averageSpeed": 127
   },
   {
     "name": "Sceptile-Mega",
@@ -314,9 +314,9 @@
     "rank": 30,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10065.png",
     "baseSpeed": 145,
-    "minSpeed": 135,
     "neutralSpeed": 165,
-    "maxSpeed": 216
+    "medianSpeed": 216,
+    "averageSpeed": 209
   },
   {
     "name": "Hydreigon",
@@ -325,9 +325,9 @@
     "rank": 31,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png",
     "baseSpeed": 98,
-    "minSpeed": 92,
     "neutralSpeed": 118,
-    "maxSpeed": 165
+    "medianSpeed": 150,
+    "averageSpeed": 153
   },
   {
     "name": "Eelektross-Mega",
@@ -336,9 +336,9 @@
     "rank": 32,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10290.png",
     "baseSpeed": 80,
-    "minSpeed": 76,
     "neutralSpeed": 100,
-    "maxSpeed": 145
+    "medianSpeed": 112,
+    "averageSpeed": 116
   },
   {
     "name": "Delphox-Mega",
@@ -347,9 +347,9 @@
     "rank": 33,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10293.png",
     "baseSpeed": 134,
-    "minSpeed": 125,
     "neutralSpeed": 154,
-    "maxSpeed": 204
+    "medianSpeed": 204,
+    "averageSpeed": 198
   },
   {
     "name": "Froslass-Mega",
@@ -358,9 +358,9 @@
     "rank": 34,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10285.png",
     "baseSpeed": 120,
-    "minSpeed": 112,
     "neutralSpeed": 140,
-    "maxSpeed": 189
+    "medianSpeed": 189,
+    "averageSpeed": 180
   },
   {
     "name": "Aerodactyl-Mega",
@@ -369,9 +369,9 @@
     "rank": 35,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10042.png",
     "baseSpeed": 150,
-    "minSpeed": 139,
     "neutralSpeed": 170,
-    "maxSpeed": 222
+    "medianSpeed": 222,
+    "averageSpeed": 219
   },
   {
     "name": "Pyroar-Mega",
@@ -380,9 +380,9 @@
     "rank": 36,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10295.png",
     "baseSpeed": 126,
-    "minSpeed": 117,
     "neutralSpeed": 146,
-    "maxSpeed": 195
+    "medianSpeed": 195,
+    "averageSpeed": 190
   },
   {
     "name": "Scrafty-Mega",
@@ -391,9 +391,9 @@
     "rank": 37,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10289.png",
     "baseSpeed": 68,
-    "minSpeed": 65,
     "neutralSpeed": 88,
-    "maxSpeed": 132
+    "medianSpeed": 88,
+    "averageSpeed": 84
   },
   {
     "name": "Tyranitar-Mega",
@@ -402,9 +402,9 @@
     "rank": 38,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10049.png",
     "baseSpeed": 71,
-    "minSpeed": 68,
     "neutralSpeed": 91,
-    "maxSpeed": 135
+    "medianSpeed": 103,
+    "averageSpeed": 105
   },
   {
     "name": "Rotom-Heat",
@@ -413,9 +413,9 @@
     "rank": 39,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10008.png",
     "baseSpeed": 86,
-    "minSpeed": 81,
     "neutralSpeed": 106,
-    "maxSpeed": 151
+    "medianSpeed": 151,
+    "averageSpeed": 141
   },
   {
     "name": "Gengar-Mega",
@@ -424,9 +424,9 @@
     "rank": 40,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10038.png",
     "baseSpeed": 130,
-    "minSpeed": 121,
     "neutralSpeed": 150,
-    "maxSpeed": 200
+    "medianSpeed": 192,
+    "averageSpeed": 186
   },
   {
     "name": "Primarina",
@@ -435,9 +435,9 @@
     "rank": 41,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png",
     "baseSpeed": 60,
-    "minSpeed": 58,
     "neutralSpeed": 80,
-    "maxSpeed": 123
+    "medianSpeed": 80,
+    "averageSpeed": 80
   },
   {
     "name": "Clefable",
@@ -446,9 +446,9 @@
     "rank": 42,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
     "baseSpeed": 60,
-    "minSpeed": 58,
     "neutralSpeed": 80,
-    "maxSpeed": 123
+    "medianSpeed": 80,
+    "averageSpeed": 79
   },
   {
     "name": "Staraptor",
@@ -457,9 +457,9 @@
     "rank": 43,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png",
     "baseSpeed": 100,
-    "minSpeed": 94,
     "neutralSpeed": 120,
-    "maxSpeed": 167
+    "medianSpeed": 167,
+    "averageSpeed": 164
   },
   {
     "name": "Blaziken-Mega",
@@ -468,9 +468,9 @@
     "rank": 44,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10050.png",
     "baseSpeed": 100,
-    "minSpeed": 94,
     "neutralSpeed": 120,
-    "maxSpeed": 167
+    "medianSpeed": 152,
+    "averageSpeed": 149
   },
   {
     "name": "Venusaur",
@@ -479,9 +479,9 @@
     "rank": 45,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
     "baseSpeed": 80,
-    "minSpeed": 76,
     "neutralSpeed": 100,
-    "maxSpeed": 145
+    "medianSpeed": 132,
+    "averageSpeed": 130
   },
   {
     "name": "Corviknight",
@@ -490,9 +490,9 @@
     "rank": 46,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/823.png",
     "baseSpeed": 67,
-    "minSpeed": 64,
     "neutralSpeed": 87,
-    "maxSpeed": 130
+    "medianSpeed": 87,
+    "averageSpeed": 91
   },
   {
     "name": "Tsareena",
@@ -501,9 +501,9 @@
     "rank": 47,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png",
     "baseSpeed": 72,
-    "minSpeed": 69,
     "neutralSpeed": 92,
-    "maxSpeed": 136
+    "medianSpeed": 114,
+    "averageSpeed": 113
   },
   {
     "name": "Politoed",
@@ -512,9 +512,9 @@
     "rank": 48,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png",
     "baseSpeed": 70,
-    "minSpeed": 67,
     "neutralSpeed": 90,
-    "maxSpeed": 134
+    "medianSpeed": 90,
+    "averageSpeed": 92
   },
   {
     "name": "Dragalge-Mega",
@@ -523,9 +523,9 @@
     "rank": 49,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10299.png",
     "baseSpeed": 44,
-    "minSpeed": 44,
     "neutralSpeed": 64,
-    "maxSpeed": 105
+    "medianSpeed": 64,
+    "averageSpeed": 56
   },
   {
     "name": "Ceruledge",
@@ -534,9 +534,9 @@
     "rank": 50,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png",
     "baseSpeed": 85,
-    "minSpeed": 81,
     "neutralSpeed": 105,
-    "maxSpeed": 150
+    "medianSpeed": 110,
+    "averageSpeed": 120
   },
   {
     "name": "Venusaur-Mega",
@@ -545,9 +545,9 @@
     "rank": 51,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10033.png",
     "baseSpeed": 80,
-    "minSpeed": 76,
     "neutralSpeed": 100,
-    "maxSpeed": 145
+    "medianSpeed": 108,
+    "averageSpeed": 109
   },
   {
     "name": "Toxapex",
@@ -556,9 +556,9 @@
     "rank": 52,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png",
     "baseSpeed": 35,
-    "minSpeed": 36,
     "neutralSpeed": 55,
-    "maxSpeed": 95
+    "medianSpeed": 55,
+    "averageSpeed": 52
   },
   {
     "name": "Dragonite-Mega",
@@ -567,9 +567,9 @@
     "rank": 53,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10281.png",
     "baseSpeed": 100,
-    "minSpeed": 94,
     "neutralSpeed": 120,
-    "maxSpeed": 167
+    "medianSpeed": 152,
+    "averageSpeed": 142
   },
   {
     "name": "Raichu-Mega-X",
@@ -578,9 +578,9 @@
     "rank": 54,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10304.png",
     "baseSpeed": 110,
-    "minSpeed": 103,
     "neutralSpeed": 130,
-    "maxSpeed": 178
+    "medianSpeed": 178,
+    "averageSpeed": 171
   },
   {
     "name": "Raichu",
@@ -589,9 +589,9 @@
     "rank": 55,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
     "baseSpeed": 110,
-    "minSpeed": 103,
     "neutralSpeed": 130,
-    "maxSpeed": 178
+    "medianSpeed": 178,
+    "averageSpeed": 174
   },
   {
     "name": "Excadrill",
@@ -600,9 +600,9 @@
     "rank": 56,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png",
     "baseSpeed": 88,
-    "minSpeed": 83,
     "neutralSpeed": 108,
-    "maxSpeed": 154
+    "medianSpeed": 140,
+    "averageSpeed": 141
   },
   {
     "name": "Typhlosion-Hisui",
@@ -611,9 +611,9 @@
     "rank": 57,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10233.png",
     "baseSpeed": 95,
-    "minSpeed": 90,
     "neutralSpeed": 115,
-    "maxSpeed": 161
+    "medianSpeed": 147,
+    "averageSpeed": 151
   },
   {
     "name": "Blastoise-Mega",
@@ -622,9 +622,9 @@
     "rank": 58,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10036.png",
     "baseSpeed": 78,
-    "minSpeed": 74,
     "neutralSpeed": 98,
-    "maxSpeed": 143
+    "medianSpeed": 100,
+    "averageSpeed": 102
   },
   {
     "name": "Vileplume",
@@ -633,9 +633,9 @@
     "rank": 60,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
     "baseSpeed": 50,
-    "minSpeed": 49,
     "neutralSpeed": 70,
-    "maxSpeed": 112
+    "medianSpeed": 112,
+    "averageSpeed": 104
   },
   {
     "name": "Hatterene",
@@ -644,9 +644,9 @@
     "rank": 61,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/858.png",
     "baseSpeed": 29,
-    "minSpeed": 30,
     "neutralSpeed": 49,
-    "maxSpeed": 89
+    "medianSpeed": 30,
+    "averageSpeed": 35
   },
   {
     "name": "Dragapult",
@@ -655,9 +655,9 @@
     "rank": 62,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/887.png",
     "baseSpeed": 142,
-    "minSpeed": 132,
     "neutralSpeed": 162,
-    "maxSpeed": 213
+    "medianSpeed": 213,
+    "averageSpeed": 206
   },
   {
     "name": "Mamoswine",
@@ -666,9 +666,9 @@
     "rank": 63,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png",
     "baseSpeed": 80,
-    "minSpeed": 76,
     "neutralSpeed": 100,
-    "maxSpeed": 145
+    "medianSpeed": 132,
+    "averageSpeed": 128
   },
   {
     "name": "Tyranitar",
@@ -677,9 +677,9 @@
     "rank": 64,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png",
     "baseSpeed": 61,
-    "minSpeed": 59,
     "neutralSpeed": 81,
-    "maxSpeed": 124
+    "medianSpeed": 81,
+    "averageSpeed": 92
   },
   {
     "name": "Volcarona",
@@ -688,9 +688,9 @@
     "rank": 65,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png",
     "baseSpeed": 100,
-    "minSpeed": 94,
     "neutralSpeed": 120,
-    "maxSpeed": 167
+    "medianSpeed": 137,
+    "averageSpeed": 139
   },
   {
     "name": "Gardevoir-Mega",
@@ -699,9 +699,9 @@
     "rank": 66,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10051.png",
     "baseSpeed": 100,
-    "minSpeed": 94,
     "neutralSpeed": 120,
-    "maxSpeed": 167
+    "medianSpeed": 135,
+    "averageSpeed": 137
   },
   {
     "name": "Dragonite",
@@ -710,9 +710,9 @@
     "rank": 67,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
     "baseSpeed": 80,
-    "minSpeed": 76,
     "neutralSpeed": 100,
-    "maxSpeed": 145
+    "medianSpeed": 132,
+    "averageSpeed": 122
   },
   {
     "name": "Glimmora",
@@ -721,9 +721,9 @@
     "rank": 68,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/970.png",
     "baseSpeed": 86,
-    "minSpeed": 81,
     "neutralSpeed": 106,
-    "maxSpeed": 151
+    "medianSpeed": 138,
+    "averageSpeed": 140
   },
   {
     "name": "Oranguru",
@@ -732,9 +732,9 @@
     "rank": 69,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/765.png",
     "baseSpeed": 60,
-    "minSpeed": 58,
     "neutralSpeed": 80,
-    "maxSpeed": 123
+    "medianSpeed": 58,
+    "averageSpeed": 69
   },
   {
     "name": "Kangaskhan",
@@ -743,9 +743,9 @@
     "rank": 70,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
     "baseSpeed": 90,
-    "minSpeed": 85,
     "neutralSpeed": 110,
-    "maxSpeed": 156
+    "medianSpeed": 110,
+    "averageSpeed": 113
   },
   {
     "name": "Scovillain-Mega",
@@ -754,9 +754,9 @@
     "rank": 71,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10320.png",
     "baseSpeed": 75,
-    "minSpeed": 72,
     "neutralSpeed": 95,
-    "maxSpeed": 139
+    "medianSpeed": 95,
+    "averageSpeed": 96
   },
   {
     "name": "Meowscarada",
@@ -765,9 +765,9 @@
     "rank": 72,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/908.png",
     "baseSpeed": 123,
-    "minSpeed": 115,
     "neutralSpeed": 143,
-    "maxSpeed": 192
+    "medianSpeed": 192,
+    "averageSpeed": 184
   },
   {
     "name": "Meganium-Mega",
@@ -776,9 +776,9 @@
     "rank": 73,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10282.png",
     "baseSpeed": 80,
-    "minSpeed": 76,
     "neutralSpeed": 100,
-    "maxSpeed": 145
+    "medianSpeed": 107,
+    "averageSpeed": 114
   },
   {
     "name": "Arcanine-Hisui",
@@ -787,9 +787,9 @@
     "rank": 74,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10230.png",
     "baseSpeed": 90,
-    "minSpeed": 85,
     "neutralSpeed": 110,
-    "maxSpeed": 156
+    "medianSpeed": 156,
+    "averageSpeed": 147
   },
   {
     "name": "Malamar-Mega",
@@ -798,9 +798,9 @@
     "rank": 75,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10297.png",
     "baseSpeed": 88,
-    "minSpeed": 83,
     "neutralSpeed": 108,
-    "maxSpeed": 154
+    "medianSpeed": 108,
+    "averageSpeed": 114
   },
   {
     "name": "Ninetales",
@@ -809,9 +809,9 @@
     "rank": 76,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
     "baseSpeed": 100,
-    "minSpeed": 94,
     "neutralSpeed": 120,
-    "maxSpeed": 167
+    "medianSpeed": 152,
+    "averageSpeed": 156
   },
   {
     "name": "Araquanid",
@@ -820,9 +820,9 @@
     "rank": 77,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png",
     "baseSpeed": 42,
-    "minSpeed": 42,
     "neutralSpeed": 62,
-    "maxSpeed": 103
+    "medianSpeed": 62,
+    "averageSpeed": 54
   },
   {
     "name": "Kommo-o",
@@ -831,9 +831,9 @@
     "rank": 79,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/784.png",
     "baseSpeed": 85,
-    "minSpeed": 81,
     "neutralSpeed": 105,
-    "maxSpeed": 150
+    "medianSpeed": 137,
+    "averageSpeed": 133
   },
   {
     "name": "Camerupt-Mega",
@@ -842,9 +842,9 @@
     "rank": 80,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10087.png",
     "baseSpeed": 20,
-    "minSpeed": 22,
     "neutralSpeed": 40,
-    "maxSpeed": 79
+    "medianSpeed": 22,
+    "averageSpeed": 26
   },
   {
     "name": "Zoroark-Hisui",
@@ -853,9 +853,9 @@
     "rank": 81,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10239.png",
     "baseSpeed": 110,
-    "minSpeed": 103,
     "neutralSpeed": 130,
-    "maxSpeed": 178
+    "medianSpeed": 178,
+    "averageSpeed": 172
   },
   {
     "name": "Vivillon",
@@ -864,9 +864,9 @@
     "rank": 82,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png",
     "baseSpeed": 89,
-    "minSpeed": 84,
     "neutralSpeed": 109,
-    "maxSpeed": 155
+    "medianSpeed": 155,
+    "averageSpeed": 153
   },
   {
     "name": "Gallade",
@@ -875,9 +875,9 @@
     "rank": 83,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png",
     "baseSpeed": 80,
-    "minSpeed": 76,
     "neutralSpeed": 100,
-    "maxSpeed": 145
+    "medianSpeed": 103,
+    "averageSpeed": 110
   },
   {
     "name": "Scizor-Mega",
@@ -886,9 +886,9 @@
     "rank": 84,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10046.png",
     "baseSpeed": 75,
-    "minSpeed": 72,
     "neutralSpeed": 95,
-    "maxSpeed": 139
+    "medianSpeed": 95,
+    "averageSpeed": 97
   },
   {
     "name": "Tinkaton",
@@ -897,9 +897,9 @@
     "rank": 86,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/959.png",
     "baseSpeed": 94,
-    "minSpeed": 89,
     "neutralSpeed": 114,
-    "maxSpeed": 160
+    "medianSpeed": 151,
+    "averageSpeed": 140
   },
   {
     "name": "Heliolisk",
@@ -908,9 +908,9 @@
     "rank": 87,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png",
     "baseSpeed": 109,
-    "minSpeed": 102,
     "neutralSpeed": 129,
-    "maxSpeed": 177
+    "medianSpeed": 177,
+    "averageSpeed": 170
   },
   {
     "name": "Weavile",
@@ -919,9 +919,9 @@
     "rank": 88,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png",
     "baseSpeed": 125,
-    "minSpeed": 117,
     "neutralSpeed": 145,
-    "maxSpeed": 194
+    "medianSpeed": 194,
+    "averageSpeed": 191
   },
   {
     "name": "Espathra",
@@ -930,9 +930,9 @@
     "rank": 89,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/956.png",
     "baseSpeed": 105,
-    "minSpeed": 99,
     "neutralSpeed": 125,
-    "maxSpeed": 172
+    "medianSpeed": 157,
+    "averageSpeed": 151
   },
   {
     "name": "Metagross",
@@ -941,9 +941,9 @@
     "rank": 90,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png",
     "baseSpeed": 70,
-    "minSpeed": 67,
     "neutralSpeed": 90,
-    "maxSpeed": 134
+    "medianSpeed": 90,
+    "averageSpeed": 99
   },
   {
     "name": "Glimmora-Mega",
@@ -952,9 +952,9 @@
     "rank": 91,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10321.png",
     "baseSpeed": 101,
-    "minSpeed": 95,
     "neutralSpeed": 121,
-    "maxSpeed": 168
+    "medianSpeed": 168,
+    "averageSpeed": 157
   },
   {
     "name": "Lycanroc-Dusk",
@@ -963,9 +963,9 @@
     "rank": 92,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10152.png",
     "baseSpeed": 110,
-    "minSpeed": 103,
     "neutralSpeed": 130,
-    "maxSpeed": 178
+    "medianSpeed": 162,
+    "averageSpeed": 169
   },
   {
     "name": "Blaziken",
@@ -974,9 +974,9 @@
     "rank": 93,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png",
     "baseSpeed": 80,
-    "minSpeed": 76,
     "neutralSpeed": 100,
-    "maxSpeed": 145
+    "medianSpeed": 132,
+    "averageSpeed": 133
   },
   {
     "name": "Overqwil",
@@ -985,9 +985,9 @@
     "rank": 94,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/904.png",
     "baseSpeed": 85,
-    "minSpeed": 81,
     "neutralSpeed": 105,
-    "maxSpeed": 150
+    "medianSpeed": 137,
+    "averageSpeed": 127
   },
   {
     "name": "Kangaskhan-Mega",
@@ -996,9 +996,9 @@
     "rank": 96,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10039.png",
     "baseSpeed": 100,
-    "minSpeed": 94,
     "neutralSpeed": 120,
-    "maxSpeed": 167
+    "medianSpeed": 122,
+    "averageSpeed": 129
   },
   {
     "name": "Scizor",
@@ -1007,9 +1007,9 @@
     "rank": 97,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png",
     "baseSpeed": 65,
-    "minSpeed": 63,
     "neutralSpeed": 85,
-    "maxSpeed": 128
+    "medianSpeed": 85,
+    "averageSpeed": 87
   },
   {
     "name": "Jolteon",
@@ -1018,9 +1018,9 @@
     "rank": 98,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
     "baseSpeed": 130,
-    "minSpeed": 121,
     "neutralSpeed": 150,
-    "maxSpeed": 200
+    "medianSpeed": 200,
+    "averageSpeed": 196
   },
   {
     "name": "Falinks-Mega",
@@ -1029,9 +1029,9 @@
     "rank": 99,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10303.png",
     "baseSpeed": 100,
-    "minSpeed": 94,
     "neutralSpeed": 120,
-    "maxSpeed": 167
+    "medianSpeed": 152,
+    "averageSpeed": 146
   },
   {
     "name": "Gyarados",
@@ -1040,9 +1040,9 @@
     "rank": 100,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
     "baseSpeed": 81,
-    "minSpeed": 77,
     "neutralSpeed": 101,
-    "maxSpeed": 146
+    "medianSpeed": 116,
+    "averageSpeed": 120
   },
   {
     "name": "Lucario-Mega",
@@ -1051,9 +1051,9 @@
     "rank": 101,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10059.png",
     "baseSpeed": 112,
-    "minSpeed": 105,
     "neutralSpeed": 132,
-    "maxSpeed": 180
+    "medianSpeed": 180,
+    "averageSpeed": 171
   },
   {
     "name": "Houndstone",
@@ -1062,9 +1062,9 @@
     "rank": 102,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/972.png",
     "baseSpeed": 68,
-    "minSpeed": 65,
     "neutralSpeed": 88,
-    "maxSpeed": 132
+    "medianSpeed": 113,
+    "averageSpeed": 112
   },
   {
     "name": "Drampa-Mega",
@@ -1073,9 +1073,9 @@
     "rank": 103,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10302.png",
     "baseSpeed": 36,
-    "minSpeed": 36,
     "neutralSpeed": 56,
-    "maxSpeed": 96
+    "medianSpeed": 36,
+    "averageSpeed": 43
   },
   {
     "name": "Vanilluxe",
@@ -1084,9 +1084,9 @@
     "rank": 104,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/584.png",
     "baseSpeed": 79,
-    "minSpeed": 75,
     "neutralSpeed": 99,
-    "maxSpeed": 144
+    "medianSpeed": 131,
+    "averageSpeed": 127
   },
   {
     "name": "Lopunny-Mega",
@@ -1095,9 +1095,9 @@
     "rank": 105,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10088.png",
     "baseSpeed": 135,
-    "minSpeed": 126,
     "neutralSpeed": 155,
-    "maxSpeed": 205
+    "medianSpeed": 205,
+    "averageSpeed": 202
   },
   {
     "name": "Gyarados-Mega",
@@ -1106,9 +1106,9 @@
     "rank": 106,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10041.png",
     "baseSpeed": 81,
-    "minSpeed": 77,
     "neutralSpeed": 101,
-    "maxSpeed": 146
+    "medianSpeed": 133,
+    "averageSpeed": 128
   },
   {
     "name": "Slowking-Galar",
@@ -1117,9 +1117,9 @@
     "rank": 107,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10172.png",
     "baseSpeed": 30,
-    "minSpeed": 31,
     "neutralSpeed": 50,
-    "maxSpeed": 90
+    "medianSpeed": 31,
+    "averageSpeed": 38
   },
   {
     "name": "Armarouge",
@@ -1128,9 +1128,9 @@
     "rank": 108,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png",
     "baseSpeed": 75,
-    "minSpeed": 72,
     "neutralSpeed": 95,
-    "maxSpeed": 139
+    "medianSpeed": 95,
+    "averageSpeed": 94
   },
   {
     "name": "Snorlax",
@@ -1139,9 +1139,9 @@
     "rank": 109,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
     "baseSpeed": 30,
-    "minSpeed": 31,
     "neutralSpeed": 50,
-    "maxSpeed": 90
+    "medianSpeed": 46,
+    "averageSpeed": 41
   },
   {
     "name": "Samurott-Hisui",
@@ -1150,9 +1150,9 @@
     "rank": 110,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10236.png",
     "baseSpeed": 85,
-    "minSpeed": 81,
     "neutralSpeed": 105,
-    "maxSpeed": 150
+    "medianSpeed": 137,
+    "averageSpeed": 135
   },
   {
     "name": "Ditto",
@@ -1161,9 +1161,9 @@
     "rank": 111,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
     "baseSpeed": 48,
-    "minSpeed": 47,
     "neutralSpeed": 68,
-    "maxSpeed": 110
+    "medianSpeed": 84,
+    "averageSpeed": 86
   },
   {
     "name": "Scrafty",
@@ -1172,9 +1172,9 @@
     "rank": 112,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/560.png",
     "baseSpeed": 58,
-    "minSpeed": 56,
     "neutralSpeed": 78,
-    "maxSpeed": 121
+    "medianSpeed": 78,
+    "averageSpeed": 75
   },
   {
     "name": "Scolipede-Mega",
@@ -1183,9 +1183,9 @@
     "rank": 113,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10288.png",
     "baseSpeed": 62,
-    "minSpeed": 60,
     "neutralSpeed": 82,
-    "maxSpeed": 125
+    "medianSpeed": 95,
+    "averageSpeed": 96
   },
   {
     "name": "Crabominable-Mega",
@@ -1194,9 +1194,9 @@
     "rank": 114,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10315.png",
     "baseSpeed": 33,
-    "minSpeed": 34,
     "neutralSpeed": 53,
-    "maxSpeed": 93
+    "medianSpeed": 34,
+    "averageSpeed": 39
   },
   {
     "name": "Starmie-Mega",
@@ -1205,9 +1205,9 @@
     "rank": 115,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10280.png",
     "baseSpeed": 120,
-    "minSpeed": 112,
     "neutralSpeed": 140,
-    "maxSpeed": 189
+    "medianSpeed": 189,
+    "averageSpeed": 178
   },
   {
     "name": "Rhyperior",
@@ -1216,9 +1216,9 @@
     "rank": 116,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png",
     "baseSpeed": 40,
-    "minSpeed": 40,
     "neutralSpeed": 60,
-    "maxSpeed": 101
+    "medianSpeed": 40,
+    "averageSpeed": 47
   },
   {
     "name": "Aggron-Mega",
@@ -1227,9 +1227,9 @@
     "rank": 117,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10053.png",
     "baseSpeed": 50,
-    "minSpeed": 49,
     "neutralSpeed": 70,
-    "maxSpeed": 112
+    "medianSpeed": 70,
+    "averageSpeed": 63
   },
   {
     "name": "Garchomp-Mega",
@@ -1238,9 +1238,9 @@
     "rank": 118,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10058.png",
     "baseSpeed": 92,
-    "minSpeed": 87,
     "neutralSpeed": 112,
-    "maxSpeed": 158
+    "medianSpeed": 144,
+    "averageSpeed": 134
   },
   {
     "name": "Chandelure-Mega",
@@ -1249,9 +1249,9 @@
     "rank": 119,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10291.png",
     "baseSpeed": 90,
-    "minSpeed": 85,
     "neutralSpeed": 110,
-    "maxSpeed": 156
+    "medianSpeed": 113,
+    "averageSpeed": 120
   },
   {
     "name": "Basculegion-F",
@@ -1260,9 +1260,9 @@
     "rank": 120,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10248.png",
     "baseSpeed": 78,
-    "minSpeed": 74,
     "neutralSpeed": 98,
-    "maxSpeed": 143
+    "medianSpeed": 130,
+    "averageSpeed": 129
   },
   {
     "name": "Barbaracle-Mega",
@@ -1271,9 +1271,9 @@
     "rank": 121,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10298.png",
     "baseSpeed": 88,
-    "minSpeed": 83,
     "neutralSpeed": 108,
-    "maxSpeed": 154
+    "medianSpeed": 140,
+    "averageSpeed": 133
   },
   {
     "name": "Kleavor",
@@ -1282,9 +1282,9 @@
     "rank": 122,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/900.png",
     "baseSpeed": 85,
-    "minSpeed": 81,
     "neutralSpeed": 105,
-    "maxSpeed": 150
+    "medianSpeed": 149,
+    "averageSpeed": 139
   },
   {
     "name": "Bellibolt",
@@ -1293,9 +1293,9 @@
     "rank": 123,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/939.png",
     "baseSpeed": 45,
-    "minSpeed": 45,
     "neutralSpeed": 65,
-    "maxSpeed": 106
+    "medianSpeed": 65,
+    "averageSpeed": 59
   },
   {
     "name": "Azumarill",
@@ -1304,9 +1304,9 @@
     "rank": 124,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png",
     "baseSpeed": 50,
-    "minSpeed": 49,
     "neutralSpeed": 70,
-    "maxSpeed": 112
+    "medianSpeed": 70,
+    "averageSpeed": 68
   },
   {
     "name": "Skeledirge",
@@ -1315,9 +1315,9 @@
     "rank": 125,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png",
     "baseSpeed": 66,
-    "minSpeed": 63,
     "neutralSpeed": 86,
-    "maxSpeed": 129
+    "medianSpeed": 86,
+    "averageSpeed": 84
   },
   {
     "name": "Klefki",
@@ -1326,9 +1326,9 @@
     "rank": 126,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png",
     "baseSpeed": 75,
-    "minSpeed": 72,
     "neutralSpeed": 95,
-    "maxSpeed": 139
+    "medianSpeed": 95,
+    "averageSpeed": 92
   },
   {
     "name": "Charizard-Mega-X",
@@ -1337,9 +1337,9 @@
     "rank": 127,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10034.png",
     "baseSpeed": 100,
-    "minSpeed": 94,
     "neutralSpeed": 120,
-    "maxSpeed": 167
+    "medianSpeed": 149,
+    "averageSpeed": 147
   },
   {
     "name": "Serperior",
@@ -1348,9 +1348,9 @@
     "rank": 128,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png",
     "baseSpeed": 113,
-    "minSpeed": 106,
     "neutralSpeed": 133,
-    "maxSpeed": 181
+    "medianSpeed": 181,
+    "averageSpeed": 169
   },
   {
     "name": "Cofagrigus",
@@ -1359,9 +1359,9 @@
     "rank": 129,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png",
     "baseSpeed": 30,
-    "minSpeed": 31,
     "neutralSpeed": 50,
-    "maxSpeed": 90
+    "medianSpeed": 31,
+    "averageSpeed": 36
   },
   {
     "name": "Malamar",
@@ -1370,9 +1370,9 @@
     "rank": 130,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png",
     "baseSpeed": 73,
-    "minSpeed": 70,
     "neutralSpeed": 93,
-    "maxSpeed": 137
+    "medianSpeed": 93,
+    "averageSpeed": 96
   },
   {
     "name": "Empoleon",
@@ -1381,9 +1381,9 @@
     "rank": 131,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png",
     "baseSpeed": 60,
-    "minSpeed": 58,
     "neutralSpeed": 80,
-    "maxSpeed": 123
+    "medianSpeed": 80,
+    "averageSpeed": 82
   },
   {
     "name": "Liepard",
@@ -1392,9 +1392,9 @@
     "rank": 132,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png",
     "baseSpeed": 106,
-    "minSpeed": 99,
     "neutralSpeed": 126,
-    "maxSpeed": 173
+    "medianSpeed": 173,
+    "averageSpeed": 156
   },
   {
     "name": "Wyrdeer",
@@ -1403,9 +1403,9 @@
     "rank": 133,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/899.png",
     "baseSpeed": 65,
-    "minSpeed": 63,
     "neutralSpeed": 85,
-    "maxSpeed": 128
+    "medianSpeed": 85,
+    "averageSpeed": 82
   },
   {
     "name": "Alcremie",
@@ -1414,9 +1414,9 @@
     "rank": 134,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869.png",
     "baseSpeed": 64,
-    "minSpeed": 62,
     "neutralSpeed": 84,
-    "maxSpeed": 127
+    "medianSpeed": 84,
+    "averageSpeed": 87
   },
   {
     "name": "Golurk-Mega",
@@ -1425,9 +1425,9 @@
     "rank": 135,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10313.png",
     "baseSpeed": 55,
-    "minSpeed": 54,
     "neutralSpeed": 75,
-    "maxSpeed": 117
+    "medianSpeed": 54,
+    "averageSpeed": 64
   },
   {
     "name": "Gardevoir",
@@ -1436,9 +1436,9 @@
     "rank": 136,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png",
     "baseSpeed": 80,
-    "minSpeed": 76,
     "neutralSpeed": 100,
-    "maxSpeed": 145
+    "medianSpeed": 139,
+    "averageSpeed": 129
   },
   {
     "name": "Mr. Rime",
@@ -1447,9 +1447,9 @@
     "rank": 137,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/866.png",
     "baseSpeed": 70,
-    "minSpeed": 67,
     "neutralSpeed": 90,
-    "maxSpeed": 134
+    "medianSpeed": 90,
+    "averageSpeed": 94
   },
   {
     "name": "Ampharos-Mega",
@@ -1458,9 +1458,9 @@
     "rank": 138,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10045.png",
     "baseSpeed": 45,
-    "minSpeed": 45,
     "neutralSpeed": 65,
-    "maxSpeed": 106
+    "medianSpeed": 45,
+    "averageSpeed": 52
   },
   {
     "name": "Gliscor",
@@ -1469,9 +1469,9 @@
     "rank": 139,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png",
     "baseSpeed": 95,
-    "minSpeed": 90,
     "neutralSpeed": 115,
-    "maxSpeed": 161
+    "medianSpeed": 143,
+    "averageSpeed": 137
   },
   {
     "name": "Rotom-Mow",
@@ -1480,9 +1480,9 @@
     "rank": 140,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10012.png",
     "baseSpeed": 86,
-    "minSpeed": 81,
     "neutralSpeed": 106,
-    "maxSpeed": 151
+    "medianSpeed": 138,
+    "averageSpeed": 132
   },
   {
     "name": "Clefable-Mega",
@@ -1491,9 +1491,9 @@
     "rank": 141,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10278.png",
     "baseSpeed": 70,
-    "minSpeed": 67,
     "neutralSpeed": 90,
-    "maxSpeed": 134
+    "medianSpeed": 90,
+    "averageSpeed": 87
   },
   {
     "name": "Chandelure",
@@ -1502,9 +1502,9 @@
     "rank": 142,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png",
     "baseSpeed": 80,
-    "minSpeed": 76,
     "neutralSpeed": 100,
-    "maxSpeed": 145
+    "medianSpeed": 112,
+    "averageSpeed": 115
   },
   {
     "name": "Garganacl",
@@ -1513,9 +1513,9 @@
     "rank": 143,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/934.png",
     "baseSpeed": 35,
-    "minSpeed": 36,
     "neutralSpeed": 55,
-    "maxSpeed": 95
+    "medianSpeed": 36,
+    "averageSpeed": 45
   },
   {
     "name": "Greninja-Mega",
@@ -1524,9 +1524,9 @@
     "rank": 144,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10294.png",
     "baseSpeed": 142,
-    "minSpeed": 132,
     "neutralSpeed": 162,
-    "maxSpeed": 213
+    "medianSpeed": 213,
+    "averageSpeed": 206
   },
   {
     "name": "Abomasnow-Mega",
@@ -1535,9 +1535,9 @@
     "rank": 145,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10060.png",
     "baseSpeed": 30,
-    "minSpeed": 31,
     "neutralSpeed": 50,
-    "maxSpeed": 90
+    "medianSpeed": 31,
+    "averageSpeed": 36
   },
   {
     "name": "Swampert",
@@ -1546,9 +1546,9 @@
     "rank": 146,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png",
     "baseSpeed": 60,
-    "minSpeed": 58,
     "neutralSpeed": 80,
-    "maxSpeed": 123
+    "medianSpeed": 80,
+    "averageSpeed": 80
   },
   {
     "name": "Noivern",
@@ -1557,9 +1557,9 @@
     "rank": 147,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
     "baseSpeed": 123,
-    "minSpeed": 115,
     "neutralSpeed": 143,
-    "maxSpeed": 192
+    "medianSpeed": 192,
+    "averageSpeed": 188
   },
   {
     "name": "Lucario",
@@ -1568,9 +1568,9 @@
     "rank": 148,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
     "baseSpeed": 90,
-    "minSpeed": 85,
     "neutralSpeed": 110,
-    "maxSpeed": 156
+    "medianSpeed": 156,
+    "averageSpeed": 150
   },
   {
     "name": "Decidueye-Hisui",
@@ -1579,9 +1579,9 @@
     "rank": 149,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10244.png",
     "baseSpeed": 60,
-    "minSpeed": 58,
     "neutralSpeed": 80,
-    "maxSpeed": 123
+    "medianSpeed": 88,
+    "averageSpeed": 90
   },
   {
     "name": "Arcanine",
@@ -1590,9 +1590,9 @@
     "rank": 150,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
     "baseSpeed": 95,
-    "minSpeed": 90,
     "neutralSpeed": 115,
-    "maxSpeed": 161
+    "medianSpeed": 129,
+    "averageSpeed": 134
   },
   {
     "name": "Orthworm",
@@ -1601,9 +1601,9 @@
     "rank": 151,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/968.png",
     "baseSpeed": 65,
-    "minSpeed": 63,
     "neutralSpeed": 85,
-    "maxSpeed": 128
+    "medianSpeed": 85,
+    "averageSpeed": 82
   },
   {
     "name": "Hawlucha-Mega",
@@ -1612,9 +1612,9 @@
     "rank": 152,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10300.png",
     "baseSpeed": 118,
-    "minSpeed": 110,
     "neutralSpeed": 138,
-    "maxSpeed": 187
+    "medianSpeed": 187,
+    "averageSpeed": 181
   },
   {
     "name": "Gengar",
@@ -1623,9 +1623,9 @@
     "rank": 153,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
     "baseSpeed": 110,
-    "minSpeed": 103,
     "neutralSpeed": 130,
-    "maxSpeed": 178
+    "medianSpeed": 178,
+    "averageSpeed": 168
   },
   {
     "name": "Goodra-Hisui",
@@ -1634,9 +1634,9 @@
     "rank": 154,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10242.png",
     "baseSpeed": 60,
-    "minSpeed": 58,
     "neutralSpeed": 80,
-    "maxSpeed": 123
+    "medianSpeed": 80,
+    "averageSpeed": 74
   },
   {
     "name": "Conkeldurr",
@@ -1645,9 +1645,9 @@
     "rank": 155,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png",
     "baseSpeed": 45,
-    "minSpeed": 45,
     "neutralSpeed": 65,
-    "maxSpeed": 106
+    "medianSpeed": 45,
+    "averageSpeed": 54
   },
   {
     "name": "Banette-Mega",
@@ -1656,9 +1656,9 @@
     "rank": 157,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10056.png",
     "baseSpeed": 75,
-    "minSpeed": 72,
     "neutralSpeed": 95,
-    "maxSpeed": 139
+    "medianSpeed": 95,
+    "averageSpeed": 92
   },
   {
     "name": "Krookodile",
@@ -1667,9 +1667,9 @@
     "rank": 158,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/553.png",
     "baseSpeed": 92,
-    "minSpeed": 87,
     "neutralSpeed": 112,
-    "maxSpeed": 158
+    "medianSpeed": 155,
+    "averageSpeed": 144
   },
   {
     "name": "Mudsdale",
@@ -1678,9 +1678,9 @@
     "rank": 159,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png",
     "baseSpeed": 35,
-    "minSpeed": 36,
     "neutralSpeed": 55,
-    "maxSpeed": 95
+    "medianSpeed": 36,
+    "averageSpeed": 45
   },
   {
     "name": "Greninja",
@@ -1689,9 +1689,9 @@
     "rank": 160,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png",
     "baseSpeed": 122,
-    "minSpeed": 114,
     "neutralSpeed": 142,
-    "maxSpeed": 191
+    "medianSpeed": 191,
+    "averageSpeed": 186
   },
   {
     "name": "Hydrapple",
@@ -1700,9 +1700,9 @@
     "rank": 161,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1019.png",
     "baseSpeed": 44,
-    "minSpeed": 44,
     "neutralSpeed": 64,
-    "maxSpeed": 105
+    "medianSpeed": 44,
+    "averageSpeed": 54
   },
   {
     "name": "Umbreon",
@@ -1711,9 +1711,9 @@
     "rank": 162,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png",
     "baseSpeed": 65,
-    "minSpeed": 63,
     "neutralSpeed": 85,
-    "maxSpeed": 128
+    "medianSpeed": 85,
+    "averageSpeed": 83
   },
   {
     "name": "Reuniclus",
@@ -1722,9 +1722,9 @@
     "rank": 163,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/579.png",
     "baseSpeed": 30,
-    "minSpeed": 31,
     "neutralSpeed": 50,
-    "maxSpeed": 90
+    "medianSpeed": 31,
+    "averageSpeed": 36
   },
   {
     "name": "Steelix-Mega",
@@ -1733,9 +1733,9 @@
     "rank": 164,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10072.png",
     "baseSpeed": 30,
-    "minSpeed": 31,
     "neutralSpeed": 50,
-    "maxSpeed": 90
+    "medianSpeed": 31,
+    "averageSpeed": 40
   },
   {
     "name": "Chesnaught-Mega",
@@ -1744,9 +1744,9 @@
     "rank": 165,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10292.png",
     "baseSpeed": 44,
-    "minSpeed": 44,
     "neutralSpeed": 64,
-    "maxSpeed": 105
+    "medianSpeed": 64,
+    "averageSpeed": 57
   },
   {
     "name": "Runerigus",
@@ -1755,9 +1755,9 @@
     "rank": 166,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/867.png",
     "baseSpeed": 30,
-    "minSpeed": 31,
     "neutralSpeed": 50,
-    "maxSpeed": 90
+    "medianSpeed": 31,
+    "averageSpeed": 37
   },
   {
     "name": "Skarmory-Mega",
@@ -1766,9 +1766,9 @@
     "rank": 167,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10284.png",
     "baseSpeed": 110,
-    "minSpeed": 103,
     "neutralSpeed": 130,
-    "maxSpeed": 178
+    "medianSpeed": 172,
+    "averageSpeed": 164
   },
   {
     "name": "Salazzle",
@@ -1777,9 +1777,9 @@
     "rank": 168,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png",
     "baseSpeed": 117,
-    "minSpeed": 109,
     "neutralSpeed": 137,
-    "maxSpeed": 185
+    "medianSpeed": 185,
+    "averageSpeed": 182
   },
   {
     "name": "Rotom-Frost",
@@ -1788,9 +1788,9 @@
     "rank": 169,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10010.png",
     "baseSpeed": 86,
-    "minSpeed": 81,
     "neutralSpeed": 106,
-    "maxSpeed": 151
+    "medianSpeed": 151,
+    "averageSpeed": 137
   },
   {
     "name": "Musharna",
@@ -1799,9 +1799,9 @@
     "rank": 170,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/518.png",
     "baseSpeed": 29,
-    "minSpeed": 30,
     "neutralSpeed": 49,
-    "maxSpeed": 89
+    "medianSpeed": 30,
+    "averageSpeed": 36
   },
   {
     "name": "Alakazam",
@@ -1810,9 +1810,9 @@
     "rank": 171,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
     "baseSpeed": 120,
-    "minSpeed": 112,
     "neutralSpeed": 140,
-    "maxSpeed": 189
+    "medianSpeed": 189,
+    "averageSpeed": 184
   },
   {
     "name": "Feraligatr-Mega",
@@ -1821,9 +1821,9 @@
     "rank": 172,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10283.png",
     "baseSpeed": 78,
-    "minSpeed": 74,
     "neutralSpeed": 98,
-    "maxSpeed": 143
+    "medianSpeed": 109,
+    "averageSpeed": 111
   },
   {
     "name": "Altaria-Mega",
@@ -1832,9 +1832,9 @@
     "rank": 173,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10067.png",
     "baseSpeed": 80,
-    "minSpeed": 76,
     "neutralSpeed": 100,
-    "maxSpeed": 145
+    "medianSpeed": 102,
+    "averageSpeed": 112
   },
   {
     "name": "Altaria",
@@ -1843,9 +1843,9 @@
     "rank": 174,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png",
     "baseSpeed": 80,
-    "minSpeed": 76,
     "neutralSpeed": 100,
-    "maxSpeed": 145
+    "medianSpeed": 100,
+    "averageSpeed": 108
   },
   {
     "name": "Alakazam-Mega",
@@ -1854,9 +1854,9 @@
     "rank": 175,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10037.png",
     "baseSpeed": 150,
-    "minSpeed": 139,
     "neutralSpeed": 170,
-    "maxSpeed": 222
+    "medianSpeed": 222,
+    "averageSpeed": 216
   },
   {
     "name": "Excadrill-Mega",
@@ -1865,9 +1865,9 @@
     "rank": 176,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10287.png",
     "baseSpeed": 103,
-    "minSpeed": 97,
     "neutralSpeed": 123,
-    "maxSpeed": 170
+    "medianSpeed": 170,
+    "averageSpeed": 160
   },
   {
     "name": "Clawitzer",
@@ -1876,9 +1876,9 @@
     "rank": 177,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png",
     "baseSpeed": 59,
-    "minSpeed": 57,
     "neutralSpeed": 79,
-    "maxSpeed": 122
+    "medianSpeed": 79,
+    "averageSpeed": 80
   },
   {
     "name": "Drampa",
@@ -1887,9 +1887,9 @@
     "rank": 178,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/780.png",
     "baseSpeed": 36,
-    "minSpeed": 36,
     "neutralSpeed": 56,
-    "maxSpeed": 96
+    "medianSpeed": 36,
+    "averageSpeed": 46
   },
   {
     "name": "Hippowdon",
@@ -1898,9 +1898,9 @@
     "rank": 179,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png",
     "baseSpeed": 47,
-    "minSpeed": 46,
     "neutralSpeed": 67,
-    "maxSpeed": 108
+    "medianSpeed": 67,
+    "averageSpeed": 60
   },
   {
     "name": "Dragalge",
@@ -1909,9 +1909,9 @@
     "rank": 180,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png",
     "baseSpeed": 44,
-    "minSpeed": 44,
     "neutralSpeed": 64,
-    "maxSpeed": 105
+    "medianSpeed": 44,
+    "averageSpeed": 55
   },
   {
     "name": "Blastoise",
@@ -1920,9 +1920,9 @@
     "rank": 181,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
     "baseSpeed": 78,
-    "minSpeed": 74,
     "neutralSpeed": 98,
-    "maxSpeed": 143
+    "medianSpeed": 98,
+    "averageSpeed": 103
   },
   {
     "name": "Slowbro-Mega",
@@ -1931,9 +1931,9 @@
     "rank": 182,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10071.png",
     "baseSpeed": 30,
-    "minSpeed": 31,
     "neutralSpeed": 50,
-    "maxSpeed": 90
+    "medianSpeed": 31,
+    "averageSpeed": 40
   },
   {
     "name": "Gallade-Mega",
@@ -1942,9 +1942,9 @@
     "rank": 183,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10068.png",
     "baseSpeed": 110,
-    "minSpeed": 103,
     "neutralSpeed": 130,
-    "maxSpeed": 178
+    "medianSpeed": 178,
+    "averageSpeed": 162
   },
   {
     "name": "Heracross-Mega",
@@ -1953,9 +1953,9 @@
     "rank": 184,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10047.png",
     "baseSpeed": 75,
-    "minSpeed": 72,
     "neutralSpeed": 95,
-    "maxSpeed": 139
+    "medianSpeed": 95,
+    "averageSpeed": 99
   },
   {
     "name": "Aurorus",
@@ -1964,9 +1964,9 @@
     "rank": 185,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png",
     "baseSpeed": 58,
-    "minSpeed": 56,
     "neutralSpeed": 78,
-    "maxSpeed": 121
+    "medianSpeed": 78,
+    "averageSpeed": 76
   },
   {
     "name": "Chimecho-Mega",
@@ -1975,9 +1975,9 @@
     "rank": 186,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10306.png",
     "baseSpeed": 65,
-    "minSpeed": 63,
     "neutralSpeed": 85,
-    "maxSpeed": 128
+    "medianSpeed": 85,
+    "averageSpeed": 76
   },
   {
     "name": "Audino",
@@ -1986,9 +1986,9 @@
     "rank": 187,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/531.png",
     "baseSpeed": 50,
-    "minSpeed": 49,
     "neutralSpeed": 70,
-    "maxSpeed": 112
+    "medianSpeed": 70,
+    "averageSpeed": 69
   },
   {
     "name": "Spiritomb",
@@ -1997,9 +1997,9 @@
     "rank": 188,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
     "baseSpeed": 35,
-    "minSpeed": 36,
     "neutralSpeed": 55,
-    "maxSpeed": 95
+    "medianSpeed": 36,
+    "averageSpeed": 42
   },
   {
     "name": "Manectric-Mega",
@@ -2008,9 +2008,9 @@
     "rank": 189,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10055.png",
     "baseSpeed": 135,
-    "minSpeed": 126,
     "neutralSpeed": 155,
-    "maxSpeed": 205
+    "medianSpeed": 205,
+    "averageSpeed": 201
   },
   {
     "name": "Quaquaval",
@@ -2019,9 +2019,9 @@
     "rank": 190,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/914.png",
     "baseSpeed": 85,
-    "minSpeed": 81,
     "neutralSpeed": 105,
-    "maxSpeed": 150
+    "medianSpeed": 150,
+    "averageSpeed": 140
   },
   {
     "name": "Torterra",
@@ -2030,9 +2030,9 @@
     "rank": 191,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png",
     "baseSpeed": 56,
-    "minSpeed": 54,
     "neutralSpeed": 76,
-    "maxSpeed": 118
+    "medianSpeed": 76,
+    "averageSpeed": 86
   },
   {
     "name": "Slowking",
@@ -2041,9 +2041,9 @@
     "rank": 192,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png",
     "baseSpeed": 30,
-    "minSpeed": 31,
     "neutralSpeed": 50,
-    "maxSpeed": 90
+    "medianSpeed": 31,
+    "averageSpeed": 36
   },
   {
     "name": "Glaceon",
@@ -2052,9 +2052,9 @@
     "rank": 193,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png",
     "baseSpeed": 65,
-    "minSpeed": 63,
     "neutralSpeed": 85,
-    "maxSpeed": 128
+    "medianSpeed": 85,
+    "averageSpeed": 91
   },
   {
     "name": "Infernape",
@@ -2063,9 +2063,9 @@
     "rank": 194,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png",
     "baseSpeed": 108,
-    "minSpeed": 101,
     "neutralSpeed": 128,
-    "maxSpeed": 176
+    "medianSpeed": 176,
+    "averageSpeed": 170
   },
   {
     "name": "Aromatisse",
@@ -2074,9 +2074,9 @@
     "rank": 195,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png",
     "baseSpeed": 29,
-    "minSpeed": 30,
     "neutralSpeed": 49,
-    "maxSpeed": 89
+    "medianSpeed": 30,
+    "averageSpeed": 34
   },
   {
     "name": "Rampardos",
@@ -2085,9 +2085,9 @@
     "rank": 197,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png",
     "baseSpeed": 58,
-    "minSpeed": 56,
     "neutralSpeed": 78,
-    "maxSpeed": 121
+    "medianSpeed": 56,
+    "averageSpeed": 71
   },
   {
     "name": "Trevenant",
@@ -2096,9 +2096,9 @@
     "rank": 198,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png",
     "baseSpeed": 56,
-    "minSpeed": 54,
     "neutralSpeed": 76,
-    "maxSpeed": 118
+    "medianSpeed": 76,
+    "averageSpeed": 67
   },
   {
     "name": "Sableye-Mega",
@@ -2107,9 +2107,9 @@
     "rank": 199,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10066.png",
     "baseSpeed": 20,
-    "minSpeed": 22,
     "neutralSpeed": 40,
-    "maxSpeed": 79
+    "medianSpeed": 40,
+    "averageSpeed": 32
   },
   {
     "name": "Vaporeon",
@@ -2118,9 +2118,9 @@
     "rank": 200,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
     "baseSpeed": 65,
-    "minSpeed": 63,
     "neutralSpeed": 85,
-    "maxSpeed": 128
+    "medianSpeed": 85,
+    "averageSpeed": 84
   },
   {
     "name": "Scolipede",
@@ -2129,9 +2129,9 @@
     "rank": 201,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png",
     "baseSpeed": 112,
-    "minSpeed": 105,
     "neutralSpeed": 132,
-    "maxSpeed": 180
+    "medianSpeed": 164,
+    "averageSpeed": 158
   },
   {
     "name": "Houndoom-Mega",
@@ -2140,9 +2140,9 @@
     "rank": 202,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10048.png",
     "baseSpeed": 115,
-    "minSpeed": 108,
     "neutralSpeed": 135,
-    "maxSpeed": 183
+    "medianSpeed": 183,
+    "averageSpeed": 178
   },
   {
     "name": "Pikachu",
@@ -2151,9 +2151,9 @@
     "rank": 203,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
     "baseSpeed": 90,
-    "minSpeed": 85,
     "neutralSpeed": 110,
-    "maxSpeed": 156
+    "medianSpeed": 156,
+    "averageSpeed": 150
   },
   {
     "name": "Beedrill-Mega",
@@ -2162,9 +2162,9 @@
     "rank": 204,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10090.png",
     "baseSpeed": 145,
-    "minSpeed": 135,
     "neutralSpeed": 165,
-    "maxSpeed": 216
+    "medianSpeed": 216,
+    "averageSpeed": 209
   },
   {
     "name": "Slowbro-Galar",
@@ -2173,9 +2173,9 @@
     "rank": 205,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10165.png",
     "baseSpeed": 30,
-    "minSpeed": 31,
     "neutralSpeed": 50,
-    "maxSpeed": 90
+    "medianSpeed": 31,
+    "averageSpeed": 38
   },
   {
     "name": "Sceptile",
@@ -2184,9 +2184,9 @@
     "rank": 206,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png",
     "baseSpeed": 120,
-    "minSpeed": 112,
     "neutralSpeed": 140,
-    "maxSpeed": 189
+    "medianSpeed": 189,
+    "averageSpeed": 179
   },
   {
     "name": "Machamp",
@@ -2195,9 +2195,9 @@
     "rank": 207,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
     "baseSpeed": 55,
-    "minSpeed": 54,
     "neutralSpeed": 75,
-    "maxSpeed": 117
+    "medianSpeed": 75,
+    "averageSpeed": 71
   },
   {
     "name": "Audino-Mega",
@@ -2206,9 +2206,9 @@
     "rank": 208,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10069.png",
     "baseSpeed": 50,
-    "minSpeed": 49,
     "neutralSpeed": 70,
-    "maxSpeed": 112
+    "medianSpeed": 70,
+    "averageSpeed": 62
   },
   {
     "name": "Toxicroak",
@@ -2217,9 +2217,9 @@
     "rank": 209,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png",
     "baseSpeed": 85,
-    "minSpeed": 81,
     "neutralSpeed": 105,
-    "maxSpeed": 150
+    "medianSpeed": 149,
+    "averageSpeed": 131
   },
   {
     "name": "Espeon",
@@ -2228,9 +2228,9 @@
     "rank": 210,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png",
     "baseSpeed": 110,
-    "minSpeed": 103,
     "neutralSpeed": 130,
-    "maxSpeed": 178
+    "medianSpeed": 178,
+    "averageSpeed": 163
   },
   {
     "name": "Pidgeot-Mega",
@@ -2239,9 +2239,9 @@
     "rank": 211,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10073.png",
     "baseSpeed": 121,
-    "minSpeed": 113,
     "neutralSpeed": 141,
-    "maxSpeed": 190
+    "medianSpeed": 190,
+    "averageSpeed": 185
   },
   {
     "name": "Beartic",
@@ -2250,9 +2250,9 @@
     "rank": 212,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png",
     "baseSpeed": 50,
-    "minSpeed": 49,
     "neutralSpeed": 70,
-    "maxSpeed": 112
+    "medianSpeed": 102,
+    "averageSpeed": 102
   },
   {
     "name": "Victreebel-Mega",
@@ -2261,9 +2261,9 @@
     "rank": 213,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10279.png",
     "baseSpeed": 70,
-    "minSpeed": 67,
     "neutralSpeed": 90,
-    "maxSpeed": 134
+    "medianSpeed": 90,
+    "averageSpeed": 94
   },
   {
     "name": "Hawlucha",
@@ -2272,9 +2272,9 @@
     "rank": 215,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/701.png",
     "baseSpeed": 118,
-    "minSpeed": 110,
     "neutralSpeed": 138,
-    "maxSpeed": 187
+    "medianSpeed": 170,
+    "averageSpeed": 175
   },
   {
     "name": "Slowbro",
@@ -2283,9 +2283,9 @@
     "rank": 216,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
     "baseSpeed": 30,
-    "minSpeed": 31,
     "neutralSpeed": 50,
-    "maxSpeed": 90
+    "medianSpeed": 31,
+    "averageSpeed": 38
   },
   {
     "name": "Medicham",
@@ -2294,9 +2294,9 @@
     "rank": 217,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png",
     "baseSpeed": 80,
-    "minSpeed": 76,
     "neutralSpeed": 100,
-    "maxSpeed": 145
+    "medianSpeed": 132,
+    "averageSpeed": 123
   },
   {
     "name": "Feraligatr",
@@ -2305,9 +2305,9 @@
     "rank": 218,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png",
     "baseSpeed": 78,
-    "minSpeed": 74,
     "neutralSpeed": 98,
-    "maxSpeed": 143
+    "medianSpeed": 104,
+    "averageSpeed": 115
   },
   {
     "name": "Glalie-Mega",
@@ -2316,9 +2316,9 @@
     "rank": 219,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10074.png",
     "baseSpeed": 100,
-    "minSpeed": 94,
     "neutralSpeed": 120,
-    "maxSpeed": 167
+    "medianSpeed": 167,
+    "averageSpeed": 154
   },
   {
     "name": "Qwilfish",
@@ -2327,9 +2327,9 @@
     "rank": 220,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png",
     "baseSpeed": 85,
-    "minSpeed": 81,
     "neutralSpeed": 105,
-    "maxSpeed": 150
+    "medianSpeed": 150,
+    "averageSpeed": 141
   },
   {
     "name": "Scovillain",
@@ -2338,9 +2338,9 @@
     "rank": 221,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/952.png",
     "baseSpeed": 75,
-    "minSpeed": 72,
     "neutralSpeed": 95,
-    "maxSpeed": 139
+    "medianSpeed": 115,
+    "averageSpeed": 113
   },
   {
     "name": "Floette-Eternal",
@@ -2349,9 +2349,9 @@
     "rank": 222,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10061.png",
     "baseSpeed": 92,
-    "minSpeed": 87,
     "neutralSpeed": 112,
-    "maxSpeed": 158
+    "medianSpeed": 144,
+    "averageSpeed": 143
   },
   {
     "name": "Ariados",
@@ -2360,9 +2360,9 @@
     "rank": 223,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png",
     "baseSpeed": 40,
-    "minSpeed": 40,
     "neutralSpeed": 60,
-    "maxSpeed": 101
+    "medianSpeed": 60,
+    "averageSpeed": 56
   },
   {
     "name": "Charizard",
@@ -2371,9 +2371,9 @@
     "rank": 224,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
     "baseSpeed": 100,
-    "minSpeed": 94,
     "neutralSpeed": 120,
-    "maxSpeed": 167
+    "medianSpeed": 167,
+    "averageSpeed": 156
   },
   {
     "name": "Luxray",
@@ -2382,9 +2382,9 @@
     "rank": 225,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png",
     "baseSpeed": 70,
-    "minSpeed": 67,
     "neutralSpeed": 90,
-    "maxSpeed": 134
+    "medianSpeed": 90,
+    "averageSpeed": 99
   },
   {
     "name": "Pinsir-Mega",
@@ -2393,9 +2393,9 @@
     "rank": 226,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10040.png",
     "baseSpeed": 105,
-    "minSpeed": 99,
     "neutralSpeed": 125,
-    "maxSpeed": 172
+    "medianSpeed": 172,
+    "averageSpeed": 162
   },
   {
     "name": "Flapple",
@@ -2404,9 +2404,9 @@
     "rank": 228,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/841.png",
     "baseSpeed": 70,
-    "minSpeed": 67,
     "neutralSpeed": 90,
-    "maxSpeed": 134
+    "medianSpeed": 122,
+    "averageSpeed": 119
   },
   {
     "name": "Leafeon",
@@ -2415,9 +2415,9 @@
     "rank": 229,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png",
     "baseSpeed": 95,
-    "minSpeed": 90,
     "neutralSpeed": 115,
-    "maxSpeed": 161
+    "medianSpeed": 147,
+    "averageSpeed": 141
   },
   {
     "name": "Sharpedo-Mega",
@@ -2426,9 +2426,9 @@
     "rank": 231,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10070.png",
     "baseSpeed": 105,
-    "minSpeed": 99,
     "neutralSpeed": 125,
-    "maxSpeed": 172
+    "medianSpeed": 157,
+    "averageSpeed": 154
   },
   {
     "name": "Toucannon",
@@ -2437,9 +2437,9 @@
     "rank": 233,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png",
     "baseSpeed": 60,
-    "minSpeed": 58,
     "neutralSpeed": 80,
-    "maxSpeed": 123
+    "medianSpeed": 80,
+    "averageSpeed": 83
   },
   {
     "name": "Eelektross",
@@ -2448,9 +2448,9 @@
     "rank": 234,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/604.png",
     "baseSpeed": 50,
-    "minSpeed": 49,
     "neutralSpeed": 70,
-    "maxSpeed": 112
+    "medianSpeed": 70,
+    "averageSpeed": 69
   },
   {
     "name": "Typhlosion",
@@ -2459,9 +2459,9 @@
     "rank": 235,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png",
     "baseSpeed": 100,
-    "minSpeed": 94,
     "neutralSpeed": 120,
-    "maxSpeed": 167
+    "medianSpeed": 167,
+    "averageSpeed": 159
   },
   {
     "name": "Pangoro",
@@ -2470,9 +2470,9 @@
     "rank": 236,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png",
     "baseSpeed": 58,
-    "minSpeed": 56,
     "neutralSpeed": 78,
-    "maxSpeed": 121
+    "medianSpeed": 78,
+    "averageSpeed": 78
   },
   {
     "name": "Manectric",
@@ -2481,9 +2481,9 @@
     "rank": 237,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png",
     "baseSpeed": 105,
-    "minSpeed": 99,
     "neutralSpeed": 125,
-    "maxSpeed": 172
+    "medianSpeed": 172,
+    "averageSpeed": 165
   },
   {
     "name": "Emolga",
@@ -2492,9 +2492,9 @@
     "rank": 238,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/587.png",
     "baseSpeed": 103,
-    "minSpeed": 97,
     "neutralSpeed": 123,
-    "maxSpeed": 170
+    "medianSpeed": 170,
+    "averageSpeed": 165
   },
   {
     "name": "Abomasnow",
@@ -2503,9 +2503,9 @@
     "rank": 239,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png",
     "baseSpeed": 60,
-    "minSpeed": 58,
     "neutralSpeed": 80,
-    "maxSpeed": 123
+    "medianSpeed": 80,
+    "averageSpeed": 77
   },
   {
     "name": "Medicham-Mega",
@@ -2514,9 +2514,9 @@
     "rank": 240,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10054.png",
     "baseSpeed": 100,
-    "minSpeed": 94,
     "neutralSpeed": 120,
-    "maxSpeed": 167
+    "medianSpeed": 152,
+    "averageSpeed": 145
   },
   {
     "name": "Florges",
@@ -2525,9 +2525,9 @@
     "rank": 241,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png",
     "baseSpeed": 75,
-    "minSpeed": 72,
     "neutralSpeed": 95,
-    "maxSpeed": 139
+    "medianSpeed": 95,
+    "averageSpeed": 105
   },
   {
     "name": "Sandaconda",
@@ -2536,9 +2536,9 @@
     "rank": 242,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/844.png",
     "baseSpeed": 71,
-    "minSpeed": 68,
     "neutralSpeed": 91,
-    "maxSpeed": 135
+    "medianSpeed": 91,
+    "averageSpeed": 92
   },
   {
     "name": "Diggersby",
@@ -2547,9 +2547,9 @@
     "rank": 243,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png",
     "baseSpeed": 78,
-    "minSpeed": 74,
     "neutralSpeed": 98,
-    "maxSpeed": 143
+    "medianSpeed": 130,
+    "averageSpeed": 121
   },
   {
     "name": "Goodra",
@@ -2558,9 +2558,9 @@
     "rank": 244,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png",
     "baseSpeed": 80,
-    "minSpeed": 76,
     "neutralSpeed": 100,
-    "maxSpeed": 145
+    "medianSpeed": 100,
+    "averageSpeed": 100
   },
   {
     "name": "Golurk",
@@ -2569,8 +2569,8 @@
     "rank": 245,
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/623.png",
     "baseSpeed": 55,
-    "minSpeed": 54,
     "neutralSpeed": 75,
-    "maxSpeed": 117
+    "medianSpeed": 75,
+    "averageSpeed": 72
   }
 ]

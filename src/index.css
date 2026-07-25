@@ -57,6 +57,22 @@ body {
   text-underline-offset: 4px;
 }
 
+.quiz-header-controls {
+  display: flex;
+  gap: 1rem;
+}
+
+.skip-button {
+  background: var(--text-color);
+  color: var(--bg-color);
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+}
+
 .sort-select {
   background: transparent;
   border: 1px solid var(--border-color);

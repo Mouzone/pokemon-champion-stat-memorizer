@@ -18,9 +18,11 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
   
   // Quiz State
+  const [quizMode, setQuizMode] = useState('sequential'); // 'sequential' | 'random'
+  const [quizSequenceIndex, setQuizSequenceIndex] = useState(0);
   const [quizBlock, setQuizBlock] = useState([]);
   const [quizIndex, setQuizIndex] = useState(0);
-  const [quizAnswers, setQuizAnswers] = useState({});
+  const [quizAnswers, setQuizAnswers] = useState({ min: '', neutral: '', max: '' });
   const [quizSubmitted, setQuizSubmitted] = useState(false);
 
   useEffect(() => {
@@ -44,29 +46,47 @@ function App() {
     return sorted;
   }, [pokemonData, sortMethod]);
 
-  const generateQuizBlock = () => {
-    // Weighted random selection based on usage
+  const generateQuizBlock = (overrideMode) => {
+    const currentQuizMode = overrideMode || quizMode;
     let block = [];
-    let pool = [...pokemonData];
-    for (let i = 0; i < 5; i++) {
-      if (pool.length === 0) break;
-      const totalWeight = pool.reduce((sum, p) => sum + p.usagePct, 0);
-      let randomNum = Math.random() * totalWeight;
-      let selectedIdx = 0;
-      for (let j = 0; j < pool.length; j++) {
-        randomNum -= pool[j].usagePct;
-        if (randomNum <= 0) {
-          selectedIdx = j;
-          break;
+    
+    if (currentQuizMode === 'random') {
+      // Weighted random selection based on usage
+      let pool = [...pokemonData];
+      for (let i = 0; i < 5; i++) {
+        if (pool.length === 0) break;
+        const totalWeight = pool.reduce((sum, p) => sum + p.usagePct, 0);
+        let randomNum = Math.random() * totalWeight;
+        let selectedIdx = 0;
+        for (let j = 0; j < pool.length; j++) {
+          randomNum -= pool[j].usagePct;
+          if (randomNum <= 0) {
+            selectedIdx = j;
+            break;
+          }
+        }
+        block.push(pool[selectedIdx]);
+        pool.splice(selectedIdx, 1);
+      }
+    } else {
+      // Sequential by usage
+      let pool = [...pokemonData].sort((a, b) => b.usagePct - a.usagePct);
+      for (let i = 0; i < 5; i++) {
+        if (quizSequenceIndex + i < pool.length) {
+          block.push(pool[quizSequenceIndex + i]);
         }
       }
-      block.push(pool[selectedIdx]);
-      pool.splice(selectedIdx, 1);
+      setQuizSequenceIndex(prev => prev + 5);
     }
+    
     setQuizBlock(block);
     setQuizIndex(0);
     setQuizAnswers({ min: '', neutral: '', max: '' });
     setQuizSubmitted(false);
+  };
+
+  const handleSkipNext5 = () => {
+    generateQuizBlock();
   };
 
   useEffect(() => {
@@ -101,7 +121,7 @@ function App() {
     <>
       <header className="header">
         <button className="mode-toggle" onClick={toggleMode}>
-          {mode === 'carousel' ? 'Switch to Quiz' : 'Switch to Carousel'}
+          {mode === 'carousel' ? 'Switch to Quiz' : 'Switch to Study'}
         </button>
         
         {mode === 'carousel' && (
@@ -117,6 +137,24 @@ function App() {
             <option value="speed">Sort by Speed</option>
             <option value="random">Randomize</option>
           </select>
+        )}
+        
+        {mode === 'quiz' && (
+          <div className="quiz-header-controls">
+            <select 
+              className="sort-select" 
+              value={quizMode} 
+              onChange={(e) => {
+                setQuizMode(e.target.value);
+                setQuizSequenceIndex(0);
+                setTimeout(() => generateQuizBlock(e.target.value), 0);
+              }}
+            >
+              <option value="sequential">Order by Usage</option>
+              <option value="random">Randomized (Weighted)</option>
+            </select>
+            <button className="skip-button" onClick={handleSkipNext5}>Skip to Next 5</button>
+          </div>
         )}
       </header>
 
