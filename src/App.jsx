@@ -24,7 +24,7 @@ function App() {
   const [quizSubmitted, setQuizSubmitted] = useState(false);
 
   useEffect(() => {
-    fetch('/pokemon-data.json')
+    fetch(`${import.meta.env.BASE_URL}pokemon-data.json`)
       .then(res => res.json())
       .then(data => {
         setPokemonData(data);
