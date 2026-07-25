@@ -72,8 +72,8 @@ async function run() {
     console.log(`Latest month: ${latestMonth}`);
     const monthHtml = await getText(`https://www.smogon.com/stats/${latestMonth}`);
     
-    // Find latest bo1 gen9vgc format
-    const formatRegex = /href="(gen9vgc[^"]*)"/g;
+    // Find latest bo1 gen9championsvgc format
+    const formatRegex = /href="(gen9championsvgc[^"]*)"/g;
     const allFormats = [...monthHtml.matchAll(formatRegex)].map(m => m[1]);
     const bo1Formats = allFormats.filter(f => !f.includes('bo3') && f.endsWith('.txt'));
     
