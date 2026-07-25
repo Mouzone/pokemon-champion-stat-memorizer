@@ -157,32 +157,33 @@ body {
   width: 100%;
 }
 
-.quiz-input-row {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.quiz-label {
-  font-size: 0.9rem;
-  opacity: 0.7;
-}
-
 .quiz-input {
   background: transparent;
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
-  padding: 0.8rem;
+  border: none;
+  border-bottom: 1px solid var(--text-color);
+  border-radius: 0;
+  padding: 0;
   font-size: 1.2rem;
+  font-weight: 500;
   color: var(--text-color);
-  text-align: center;
-  width: 100%;
+  text-align: right;
+  width: 50px;
   font-family: 'Roboto', sans-serif;
   outline: none;
 }
 
 .quiz-input:focus {
-  border-color: var(--text-color);
+  border-bottom-width: 2px;
+}
+
+/* Hide number input spinners for cleaner look */
+.quiz-input::-webkit-outer-spin-button,
+.quiz-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.quiz-input[type=number] {
+  -moz-appearance: textfield;
 }
 
 .quiz-submit, .quiz-next-block {

@@ -167,9 +167,9 @@ function App() {
               <h2 className="pokemon-name">{quizBlock[quizIndex]?.name}</h2>
               <img className="sprite" src={quizBlock[quizIndex]?.sprite} alt="pokemon" />
               
-              <div className="quiz-input-group">
-                <div className="quiz-input-row">
-                  <label className="quiz-label">Base Speed</label>
+              <div className="stats-container">
+                <div className="stat-row">
+                  <span className="stat-label">Base</span>
                   <input 
                     type="number" 
                     className="quiz-input" 
@@ -178,8 +178,8 @@ function App() {
                     disabled={quizSubmitted}
                   />
                 </div>
-                <div className="quiz-input-row">
-                  <label className="quiz-label">Median Speed</label>
+                <div className="stat-row">
+                  <span className="stat-label">Median</span>
                   <input 
                     type="number" 
                     className="quiz-input" 
@@ -188,8 +188,8 @@ function App() {
                     disabled={quizSubmitted}
                   />
                 </div>
-                <div className="quiz-input-row">
-                  <label className="quiz-label">Average Speed</label>
+                <div className="stat-row">
+                  <span className="stat-label">Average</span>
                   <input 
                     type="number" 
                     className="quiz-input" 
