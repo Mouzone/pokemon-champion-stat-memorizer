@@ -104,6 +104,7 @@ body {
   position: relative;
   width: 100%;
   padding: 1rem;
+  overflow-y: auto;
 }
 
 .carousel-container, .quiz-container {
