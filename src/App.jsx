@@ -162,7 +162,7 @@ function App() {
         {mode === 'carousel' ? (
           <div className="carousel-container">
             <button className="nav-arrow" onClick={handlePrev} disabled={currentIndex === 0}>
-              <ChevronLeft size={48} />
+              <ChevronLeft className="nav-icon" />
             </button>
             
             <div className="pokemon-display">
@@ -192,7 +192,7 @@ function App() {
             </div>
 
             <button className="nav-arrow" onClick={handleNext} disabled={currentIndex === sortedData.length - 1}>
-              <ChevronRight size={48} />
+              <ChevronRight className="nav-icon" />
             </button>
           </div>
         ) : (
