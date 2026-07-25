@@ -166,7 +166,7 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
   color: var(--text-color);
-  text-align: right;
+  text-align: center;
   width: 50px;
   font-family: 'Roboto', sans-serif;
   outline: none;
