@@ -121,7 +121,7 @@ function App() {
     <>
       <header className="header">
         <button className="mode-toggle" onClick={toggleMode}>
-          {mode === 'carousel' ? 'Switch to Quiz' : 'Switch to Study'}
+          {mode === 'carousel' ? 'Quiz' : 'Study'}
         </button>
         
         {mode === 'carousel' && (
@@ -133,9 +133,9 @@ function App() {
               setCurrentIndex(0);
             }}
           >
-            <option value="usage">Sort by Usage</option>
-            <option value="speed">Sort by Speed</option>
-            <option value="random">Randomize</option>
+            <option value="usage">Usage</option>
+            <option value="speed">Speed</option>
+            <option value="random">Random</option>
           </select>
         )}
         
@@ -150,10 +150,10 @@ function App() {
                 setTimeout(() => generateQuizBlock(e.target.value), 0);
               }}
             >
-              <option value="sequential">Order by Usage</option>
-              <option value="random">Randomized (Weighted)</option>
+              <option value="sequential">Usage</option>
+              <option value="random">Random</option>
             </select>
-            <button className="skip-button" onClick={handleSkipNext5}>Skip to Next 5</button>
+            <button className="skip-button" onClick={handleSkipNext5}>Skip</button>
           </div>
         )}
       </header>
