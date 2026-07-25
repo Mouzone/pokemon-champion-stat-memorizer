@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --border-color: #eaeaea;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --border-color: #333333;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  max-width: 600px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  align-items: center;
+}
+
+.mode-toggle {
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-size: 1.1rem;
+  font-weight: 300;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.sort-select {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  padding: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  border-radius: 4px;
+  outline: none;
+}
+
+.sort-select option {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.carousel-container, .quiz-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-arrow {
+  background: none;
+  border: none;
+  color: var(--text-color);
+  cursor: pointer;
+  padding: 2rem;
+  opacity: 0.3;
+  transition: opacity 0.2s;
+}
+
+.nav-arrow:hover {
+  opacity: 0.8;
+}
+
+.nav-arrow:disabled {
+  opacity: 0.05;
+  cursor: default;
+}
+
+.pokemon-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+.sprite {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 2rem;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.stat-label {
+  color: var(--text-color);
+  opacity: 0.7;
+}
+
+.stat-value {
+  font-weight: 500;
+}
+
+.quiz-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.quiz-input-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.quiz-label {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.quiz-input {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  text-align: center;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+}
+
+.quiz-input:focus {
+  border-color: var(--text-color);
+}
+
+.quiz-submit, .quiz-next-block {
+  background: var(--text-color);
+  color: var(--bg-color);
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.quiz-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.quiz-result {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.pokemon-name {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+  text-transform: capitalize;
+}
+
+.quiz-progress {
+  position: absolute;
+  top: 0;
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
