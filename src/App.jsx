@@ -65,7 +65,7 @@ function App() {
     }
     setQuizBlock(block);
     setQuizIndex(0);
-    setQuizAnswers({ base: '', median: '', average: '' });
+    setQuizAnswers({ min: '', neutral: '', max: '' });
     setQuizSubmitted(false);
   };
 
@@ -80,7 +80,7 @@ function App() {
       setCurrentIndex(prev => Math.min(prev + 1, sortedData.length - 1));
     } else if (mode === 'quiz') {
       setQuizIndex(prev => Math.min(prev + 1, quizBlock.length - 1));
-      setQuizAnswers({ base: '', median: '', average: '' });
+      setQuizAnswers({ min: '', neutral: '', max: '' });
       setQuizSubmitted(false);
     }
   };
@@ -133,21 +133,21 @@ function App() {
               
               <div className="stats-container">
                 <div className="stat-row">
-                  <span className="stat-label">Base</span>
-                  <span className="stat-value" style={{ color: getSpeedColor(sortedData[currentIndex].baseSpeed) }}>
-                    {sortedData[currentIndex].baseSpeed}
+                  <span className="stat-label">Min</span>
+                  <span className="stat-value" style={{ color: getSpeedColor(sortedData[currentIndex].minSpeed) }}>
+                    {sortedData[currentIndex].minSpeed}
                   </span>
                 </div>
                 <div className="stat-row">
-                  <span className="stat-label">Median</span>
-                  <span className="stat-value" style={{ color: getSpeedColor(sortedData[currentIndex].medianSpeed) }}>
-                    {sortedData[currentIndex].medianSpeed}
+                  <span className="stat-label">Neutral</span>
+                  <span className="stat-value" style={{ color: getSpeedColor(sortedData[currentIndex].neutralSpeed) }}>
+                    {sortedData[currentIndex].neutralSpeed}
                   </span>
                 </div>
                 <div className="stat-row">
-                  <span className="stat-label">Average</span>
-                  <span className="stat-value" style={{ color: getSpeedColor(sortedData[currentIndex].averageSpeed) }}>
-                    {sortedData[currentIndex].averageSpeed}
+                  <span className="stat-label">Max</span>
+                  <span className="stat-value" style={{ color: getSpeedColor(sortedData[currentIndex].maxSpeed) }}>
+                    {sortedData[currentIndex].maxSpeed}
                   </span>
                 </div>
               </div>
@@ -169,32 +169,32 @@ function App() {
               
               <div className="stats-container">
                 <div className="stat-row">
-                  <span className="stat-label">Base</span>
+                  <span className="stat-label">Min</span>
                   <input 
                     type="number" 
                     className="quiz-input" 
-                    value={quizAnswers.base}
-                    onChange={e => setQuizAnswers(prev => ({...prev, base: e.target.value}))}
+                    value={quizAnswers.min}
+                    onChange={e => setQuizAnswers(prev => ({...prev, min: e.target.value}))}
                     disabled={quizSubmitted}
                   />
                 </div>
                 <div className="stat-row">
-                  <span className="stat-label">Median</span>
+                  <span className="stat-label">Neutral</span>
                   <input 
                     type="number" 
                     className="quiz-input" 
-                    value={quizAnswers.median}
-                    onChange={e => setQuizAnswers(prev => ({...prev, median: e.target.value}))}
+                    value={quizAnswers.neutral}
+                    onChange={e => setQuizAnswers(prev => ({...prev, neutral: e.target.value}))}
                     disabled={quizSubmitted}
                   />
                 </div>
                 <div className="stat-row">
-                  <span className="stat-label">Average</span>
+                  <span className="stat-label">Max</span>
                   <input 
                     type="number" 
                     className="quiz-input" 
-                    value={quizAnswers.average}
-                    onChange={e => setQuizAnswers(prev => ({...prev, average: e.target.value}))}
+                    value={quizAnswers.max}
+                    onChange={e => setQuizAnswers(prev => ({...prev, max: e.target.value}))}
                     disabled={quizSubmitted}
                   />
                 </div>
@@ -203,7 +203,7 @@ function App() {
                   <button 
                     className="quiz-submit" 
                     onClick={() => setQuizSubmitted(true)}
-                    disabled={!quizAnswers.base || !quizAnswers.median || !quizAnswers.average}
+                    disabled={!quizAnswers.min || !quizAnswers.neutral || !quizAnswers.max}
                   >
                     Submit
                   </button>
@@ -211,16 +211,16 @@ function App() {
                   <>
                     <div className="quiz-result" style={{ 
                       color: (
-                        parseInt(quizAnswers.base) === quizBlock[quizIndex].baseSpeed &&
-                        parseInt(quizAnswers.median) === quizBlock[quizIndex].medianSpeed &&
-                        parseInt(quizAnswers.average) === quizBlock[quizIndex].averageSpeed
+                        parseInt(quizAnswers.min) === quizBlock[quizIndex].minSpeed &&
+                        parseInt(quizAnswers.neutral) === quizBlock[quizIndex].neutralSpeed &&
+                        parseInt(quizAnswers.max) === quizBlock[quizIndex].maxSpeed
                       ) ? 'green' : 'red' 
                     }}>
                       {(
-                        parseInt(quizAnswers.base) === quizBlock[quizIndex].baseSpeed &&
-                        parseInt(quizAnswers.median) === quizBlock[quizIndex].medianSpeed &&
-                        parseInt(quizAnswers.average) === quizBlock[quizIndex].averageSpeed
-                      ) ? 'Correct!' : `Incorrect! ${quizBlock[quizIndex].baseSpeed} / ${quizBlock[quizIndex].medianSpeed} / ${quizBlock[quizIndex].averageSpeed}`}
+                        parseInt(quizAnswers.min) === quizBlock[quizIndex].minSpeed &&
+                        parseInt(quizAnswers.neutral) === quizBlock[quizIndex].neutralSpeed &&
+                        parseInt(quizAnswers.max) === quizBlock[quizIndex].maxSpeed
+                      ) ? 'Correct!' : `Incorrect! ${quizBlock[quizIndex].minSpeed} / ${quizBlock[quizIndex].neutralSpeed} / ${quizBlock[quizIndex].maxSpeed}`}
                     </div>
                     {quizIndex < quizBlock.length - 1 ? (
                       <button className="quiz-next-block" onClick={handleNext}>Next Pokemon</button>

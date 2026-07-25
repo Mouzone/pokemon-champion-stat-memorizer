@@ -141,8 +141,9 @@ async function run() {
                 rank: p.rank,
                 sprite,
                 baseSpeed: speedStat,
-                medianSpeed: speedStat + 20,
-                averageSpeed: Math.floor((speedStat + 52) * 1.1)
+                minSpeed: Math.floor((speedStat + 5) * 0.9), // 0 IV, 0 EV, Hindering Nature
+                neutralSpeed: speedStat + 20, // 31 IV, 0 EV, Neutral Nature
+                maxSpeed: Math.floor((speedStat + 52) * 1.1) // 31 IV, 252 EV, Boosting Nature
             });
         } catch (e) {
             console.warn(`Failed to fetch PokeAPI data for ${p.apiName}: ${e.message}`);
